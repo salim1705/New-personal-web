@@ -1,0 +1,293 @@
+@import url('https://fonts.cdnfonts.com/css/labrit');
+@import url('https://fonts.cdnfonts.com/css/supernatural-knight');
+@import url('https://fonts.cdnfonts.com/css/heroes-assemble');
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+a{
+   color: inherit;
+   text-decoration: none;
+}
+
+.medsos{
+    padding: 5px 0;
+    background-color: #1E5128;   
+}
+
+.medsos ul li{
+    display: inline-block;
+    color: #D0C9C0;  
+    margin-right: 15px; 
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.container:after{
+    content:'' ;
+    display: block;
+    clear: both;
+}
+
+header h1{
+    float: left;
+    padding: 15px 0;
+    color: #1E5128;
+    font-family: 'LaBrit', sans-serif;
+   
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: #1E5128;
+    color:#519872;
+}
+
+.active{
+    background-color: #1E5128;
+    color: #7ECA9C;
+}
+
+.banner{
+    height: 60vh;
+    
+    background-image: url(img/minimalist-green-.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner:after{
+    content: '';
+    display:block;
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(29, 62, 32, 0.6);
+}
+
+.banner h2{
+    color: #C8DBBE;
+    z-index: 1;
+    font-family: 'Supernatural Knight', sans-serif;
+    padding: 25px 20px;
+    border: 3px solid;
+}
+
+section{
+    padding: 50px 0;
+}
+
+section h3{
+    text-align: center;
+    padding: 20px 0;
+    color: #6D8B74;
+    margin-bottom: 20px;
+}
+
+.about p{
+    color: #A1B57D;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+footer{
+    padding: 30px 0;
+    background-color: #395144;
+    color: white;
+    text-align: center;
+}
+
+.bg-loader{
+    background-color: #6D8B74;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bg-loader .loader{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    border-top-color: #1E5128;
+    border-right-color: #1E5128;
+    border-bottom-color: #1E5128;
+    animation: puterin .8s linear infinite;
+}
+
+.label{
+    background-color:#1E5128;
+    color: #D0C9C0;
+}
+.myfoto1{
+   margin-left: 280px;
+}
+
+
+
+.content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    background-color: white;
+    padding: 0% 12%;
+  }
+  
+  .card {
+    background-color: #C8DBBE;
+    transition: 0.3s;
+    width: 300px;
+    min-height: 350px;
+    padding: 32px;
+    margin: 30px 30px 30px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    background-color: #519872;
+  }
+
+  .section-header{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .medsos2{
+    padding: 5px 0;
+  }
+
+  .medsos2 ul li{
+    display: inline-block;
+    margin-right: 15px;
+    width: 50px;
+    height: 40px;
+    
+    margin-left: 250px;
+  }
+
+  .icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+  }
+
+  .tombol{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background:#1E5128 ;
+    margin: 10px;
+    border-radius: 30%;
+    box-sizing: 0 15px -5px #519872;
+    overflow: hidden;
+    position: relative;
+    color: #D0C9C0;
+  }
+
+  .tombol i{
+    transition: 0.2s linear;
+    font-size: 26px;
+    line-height: 90px;
+  }
+
+  
+.tombol :hover i{
+    transform: scale(1.3);
+    color: #519872;
+}
+
+  .balel{
+    background-color: #1E5128;
+    color: #D0C9C0;
+  }
+
+  .kotak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 480px;
+}
+.kartu {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #1E5128;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #519872;
+}
+.kartu i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: #D0C9C0;
+    
+}
+.kartu h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.pra p a{
+    background-color: #D0C9C0;
+    color:#519872;
+}
+.pra p a:hover {
+        transform: scale(1.2);
+        border: 2px solid #395144;
+        background-color: transparent;
+}
+
+.tittle h2{
+    text-align: center;
+    font-family: 'Heroes Assemble 3D', sans-serif;
+    font-size: 50px;
+    color: #1E5128;
+}
+
+@keyframes puterin{
+    100% {
+        transform: rotate(360deg);
+    }
+}
